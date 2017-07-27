@@ -15,8 +15,6 @@ jQuery(document).ready(function() {
  	});
 	document.createElement("article");
 	document.createElement("section");
-
-	console.log(is_mobile())
 	if(is_mobile()){
 		$("#hicircl-title").css('font-size', '2.5rem')
 		$("#hicircl-desc").text('专家的技术服务, 研发团队建设及人力资源的咨询')
@@ -332,7 +330,7 @@ jQuery(document).ready(function() {
 	function() {
 	 jQuery(this).parent().find(".overlay").width(jQuery(this).find("img").css("width"));
 	 jQuery(this).parent().find(".overlay").height(jQuery(this).find("img").css("height"));
-	 jQuery(this).parent().find(".overlay").stop(true).fadeTo(150, .9);
+	 jQuery(this).parent().find(".overlay").stop(true).fadeTo(150, .95);
 	 picheight = jQuery(this).find("img").css("height");
 	 newheight = (picheight.substring(0, picheight.length - 2)/2)-48;
 	 //alert(newheight);

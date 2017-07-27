@@ -115,7 +115,7 @@ body {
 	}
 	header.smaller {
 	height: 70px;
-	background:rgba(255,255,255,0.90);
+	background:rgba(255,255,255,0.95);
 	border-bottom:solid 1px #ddd; 
 	}
 	.logo-smaller h1#logo {
