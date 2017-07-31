@@ -544,6 +544,17 @@ jQuery(document).ready(function() {
             jQuery('html,body').scrollTo(this.hash, this.hash); 
 			}
         });
+
+    jQuery('.icon-view-new').click(function(){
+
+ 			$('#myModal').modal('show');
+ 			$('#contentModal').css("width", jQuery(window).innerWidth() * 0.8)
+ 			$('#contentModal').css("height", jQuery(window).innerHeight() * 0.8)
+ 			$('#imgHeight').css("width", jQuery(window).innerWidth() * 0.6)
+ 			$('#imgHeight').css("max-height", jQuery(window).innerHeight() * 0.7)
+ 			$('#imgContent').attr('src', $(this).attr("id"))
+ 			$('#myModalLabel').text($(this).attr("name"))
+    });
 		
 		jQuery('.de-gallery .item .icon-info').click(function(){
 			jQuery('.page-overlay').show();
