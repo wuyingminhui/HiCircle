@@ -19,6 +19,8 @@ jQuery(document).ready(function() {
 		$("#hicircl-title").css('font-size', '2.5rem')
 		$("#hicircl-desc").text('HiCircle 为您提供专业的技术咨询服务、人力资源服务')
 		$("#hicircl-desc").css('font-size', '13px')
+	} else {
+		$("#online").css('padding', '0px 88px 45px 88px')
 	}
 	
 // --------------------------------------------------
