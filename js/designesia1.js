@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
   document.createElement("section");
   if(is_mobile()){
     $("#hicircl-title").css('font-size', '2.5rem')
-    $("#hicircl-desc").text('HiCircle 为您提供专业的技术咨询服务、人力资源服务')
+    $("#hicircl-desc").text('HiCircle 为您提供专业的技术培训服务、人力资源服务')
     $("#hicircl-desc").css('font-size', '13px')
   }
   
