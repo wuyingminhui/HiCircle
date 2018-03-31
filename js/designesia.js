@@ -336,12 +336,14 @@ jQuery(document).ready(function() {
 	 picheight = jQuery(this).find("img").css("height");
 	 newheight = (picheight.substring(0, picheight.length - 2)/2)-48;
 	 //alert(newheight);
-	 jQuery(this).parent().find(".icon").stop(true).animate({'margin-top': newheight},'300','easeOutCubic');
+	 jQuery(this).parent().find(".icon").stop(true).animate({'margin-top': newheight - 30},'300','easeOutCubic');
 
 	},
     function() {
-	 jQuery(this).parent().find(".icon").stop(true).animate({'margin-top': newheight + 100},'300','easeOutCubic');
-	 jQuery(this).parent().find(".overlay").stop(true).fadeTo(150, 0);
+    	picheight = jQuery(this).find("img").css("height");
+	 		newheight = (picheight.substring(0, picheight.length - 2)/2)-48;
+	 		jQuery(this).parent().find(".icon").stop(true).animate({'margin-top': newheight + 100},'300','easeOutCubic');
+	 		jQuery(this).parent().find(".overlay").stop(true).fadeTo(150, 0);
   	})
 	
 	
