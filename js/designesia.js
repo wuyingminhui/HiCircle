@@ -16,9 +16,12 @@ jQuery(document).ready(function() {
 	document.createElement("article");
 	document.createElement("section");
 	if(is_mobile()){
-		$("#hicircl-title").css('font-size', '2.5rem')
-		$("#hicircl-desc").text('HiCircle 为您提供专业的技术培训服务、人力资源服务')
-		$("#hicircl-desc").css('font-size', '13px')
+		$("#hicircl-title").css('font-size', '2.2rem')
+		$("#hicircl-title").css('top', '3%')
+		$("#hicircl-desc").css('top', '4%')
+		$("#new_button").css('top', '6%')
+		$("#hicircl-desc").text('HiCircle 提供区块链方向专业的咨询及培训')
+		$("#hicircl-desc").css('font-size', '14px')
 	} else {
 		$("#online").css('padding', '0px 88px 45px 88px')
 	}
