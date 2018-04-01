@@ -17,9 +17,9 @@ jQuery(document).ready(function() {
 	document.createElement("section");
 	if(is_mobile()){
 		$("#hicircl-title").css('font-size', '2.2rem')
-		$("#hicircl-title").css('top', '3%')
-		$("#hicircl-desc").css('top', '4%')
-		$("#new_button").css('top', '6%')
+		$("#hicircl-title").css('top', '2.5%')
+		$("#hicircl-desc").css('top', '3.5%')
+		$("#new_button").css('top', '5.5%')
 		$("#hicircl-desc").text('HiCircle 提供区块链方向专业的咨询及培训')
 		$("#hicircl-desc").css('font-size', '14px')
 	} else {
